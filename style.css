@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.rowBox {
+    display: flex;
+}
+
+nav{
+    display: flex;
+    height: 992px;
+    padding: 12px 28px 708px 28px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: #E7EEFF;
+}
+
+.line {
+    width: 50px;
+    border-bottom: 1px solid black;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+
+.navRow {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: #E7EEFF;
+}
+
+.search, .users{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 15px;
+}
+
+input {
+    width: 260px;
+    border: none;
+    color: #000000;
+    font-family: Inter;
+    padding-left: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: transparent;
+    line-height: 28px; /* 175% */
+}
+
+.location {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+    margin-right: 96px;
+    text-decoration: none;
+    padding: 8px 24px 8px 12px;
+    gap: 12px;
+    border-radius: 16px;
+    background-color: #E7EEFF;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+    text-transform: capitalize;
+    gap: 12px;
+}
+
+.villagesBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.villages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1 0 0;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.villagesText {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 0px 0px 24px 24px;
+    background-color: #E7EEFF;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+p {
+    text-transform: capitalize;
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
